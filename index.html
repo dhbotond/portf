@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dér-Herendovics Botond Portfólió</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,7 +22,7 @@
     <main>
         <section>
             <h3>Bemutatkozás</h3>
-            <p> Sziasztok. Dér-Herendovics Botond vagyok, 19 éves. Egyszerre sportember és lelkes egyetemi diák. Céljaim eléréséhez úgy gondolom, az egyetlen gát én lehetek és eszerint is gondolkozok. véleményem szerint kellő befektetett energiával és idővel bármi elérhető az életben.</p>
+            <p>Sziasztok. Dér-Herendovics Botond vagyok, 19 éves. Egyszerre sportember és lelkes egyetemi diák. Céljaim eléréséhez úgy gondolom, az egyetlen gát én lehetek és eszerint is gondolkozok. Véleményem szerint kellő befektetett energiával és idővel bármi elérhető az életben.</p>
         </section>
         <section>
             <h3>Végzettségek</h3>
@@ -26,8 +34,8 @@
         <section>
             <h3>Nyelvvizsgák</h3>
             <ul>
-                <li>Angol nyelvből(Language ceart) C1 (2023)</li>
-                <li>Angol nyelvből(Language ceart) B2 (2021)</li>
+                <li>Angol nyelvből (Language cert) C1 (2023)</li>
+                <li>Angol nyelvből (Language cert) B2 (2021)</li>
             </ul>
         </section>
         <section>
@@ -37,9 +45,15 @@
                 <li>Pékségi kisegítő (2020)</li>
             </ul>
         </section>
-        
-        <button id="contactButton">Kapcsolat</button>
-        <p id="contactMessage"></p>
+        <section>
+            <h3>Hobbik</h3>
+            <ul id="hobbiesList"></ul> <!-- Hobbik listájának helye -->
+        </section>
+        <section>
+            <h3>Kapcsolat</h3>
+            <button id="contactButton">Kapcsolat</button>
+            <p id="contactMessage"></p>
+        </section>
     </main>
     <footer>
         <h3>Elérhetőségek</h3>
